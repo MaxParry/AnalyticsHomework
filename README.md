@@ -36,7 +36,7 @@ In order to answer this question, a pivot table was created to count how many ca
 
 A stacked column pivot chart, filterable by `country`, was chosen to represent the data visually:
 
-![Outcome Proportion by Category](Images/outcome_by_category.PNG)
+![Outcome Proportion by Category](Images/outcome_by_category.png)
 
 Based on the analysis, we can see:
 * Theater is the largest category for Kickstarter campaigns
@@ -50,7 +50,7 @@ To answer this question, another pivot table was created to count how many campa
 
 Another stacked column pivot chart, filterable by `country` and `parent-category`, was created to drill down to higher specificity:
 
-![Campaign Outcome by Sub-Category](Images/outcome_by_subcategory.PNG)
+![Campaign Outcome by Sub-Category](Images/outcome_by_subcategory.png)
 
 Based on the analysis, we can see:
 * Plays outnumber other campaigns by a wide margin
@@ -64,7 +64,7 @@ In order to assess monthly trends in campaign performance, a pivot table was cre
 
 A line graph was chosen to represent the data visually:
 
-![Campaign Outcome by Month](Images/outcome_by_date.PNG)
+![Campaign Outcome by Month](Images/outcome_by_date.png)
 
 Based on the analysis, we can see:
 * Higher success rates across all campaigns in May
@@ -85,7 +85,7 @@ In order to assess the affect of fundraising goal on campaign success, a new tab
 
 A line graph was chosen to represent the data visually:
 
-![Outcome by Funding Goal](Images/outcome_by_goal.PNG)
+![Outcome by Funding Goal](Images/outcome_by_goal.png)
 
 Based on the analysis, we can see:
 * In general, success declines with increasing funding goal size
