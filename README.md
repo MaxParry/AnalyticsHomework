@@ -19,10 +19,14 @@ The dataset is an Excel spreadsheet of four thousand rows, each row representing
 
 4. `launched_at` and `deadline`, the start and end times for each campaign, are using UNIX timestamps. In order to convert these to Excel's datetime format, two new columns were created, `Date Created Conversion` and `Date Ended Conversion`. Formulas were applied to convert each column.
 
+![Date Conversion](Images/DateConversion.PNG)
+
 ### Conditional Formatting
 In order to make the spreadsheet more readable, two columns were color-coded:
 * `outcome`, depending on whether the associated campaign was "successful" (green), "failed" (red), "cancelled" (yellow), or is currently "live" (blue)
 * `percent funded`, which used a three-color scale, transitioning from red, to green, and finally to blue, if the campaign exceeded its funding goal.
+
+![Percentage Funded Formatting](Images/PercentageFundedFormat.PNG)
 
 ## Analysis
 ### Do some campaign categories perform better than others?
